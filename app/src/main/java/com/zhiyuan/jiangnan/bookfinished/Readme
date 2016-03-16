@@ -1,0 +1,11 @@
+1.获取全国省份信息
+  http://www.weather.com.cn/data/list3/city.xml
+2.获得省份的城市信息
+  http://www.weather.com.cn/data/list3/city19.xml
+  其中19是步骤1中获取的省份编号
+3.获取城市下面的县市信息，方式与步骤2一致
+  http://www.weather.com.cn/data/list3/city1904.xml
+4.查询地区的天气编号
+  http://www.weather.com.cn/data/list3/city190404.xml
+5.根据天气编号查询天气信息
+  http://www.weather.com.cn/data/cityinfo/101190404.html
