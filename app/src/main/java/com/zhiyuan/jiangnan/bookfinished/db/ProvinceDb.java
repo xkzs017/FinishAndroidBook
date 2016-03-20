@@ -6,7 +6,7 @@ package com.zhiyuan.jiangnan.bookfinished.db;
 public class ProvinceDb {
     static private String table_create ="create table province ("
             + "id integer primary key autoincrement," +
-            "province_name text" +
+            "province_name text," +
             "province_code text)";
 
     public static String tableName = "province";

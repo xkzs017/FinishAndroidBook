@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BookFinished</string>
+    <string name="title_activity_show_city_weather">ShowCityWeather</string>
 </resources>

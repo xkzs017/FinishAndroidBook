@@ -6,8 +6,8 @@ package com.zhiyuan.jiangnan.bookfinished.db;
 public class CountyDb {
     static private String table_create = "create table county (" +
             "id integer primary key autoincrement," +
-            "county_name text" +
-            "county_code text" +
+            "county_name text," +
+            "county_code text," +
             "city_id integer)";
 
     public static String tableName = "county";

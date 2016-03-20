@@ -148,6 +148,7 @@ public class CityFactory {
                 countyDb.setCity_id(cursor.getInt(cursor.getColumnIndex(CountyDb.stringCityId)));
                 countyDb.setCounty_code(cursor.getString(cursor.getColumnIndex(CountyDb.stringCountyCode)));
                 countyDb.setCounty_name(cursor.getString(cursor.getColumnIndex(CountyDb.stringCountyName)));
+                list.add(countyDb);
             }while ( cursor.moveToNext());
         }
         return list;
